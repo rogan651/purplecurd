@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Slider from './Components/Slider';
+import Navbar from './Components/Navbar';
+import Master from './Components/Master';
+import Customermaster from './Components/Customermaster';
+import Suppliermaster from './Components/Suppliermaster';
+import Login from './Components/Login';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router>
+    <Route>
+      <Navbar/>
+      <Slider/>
+      <Switch>
+      <Route path='/' component={Master} exact />
+      <Route path='/custom' component={Customermaster} exact />
+      <Route path='/Suppliermaster' component={Suppliermaster} exact />
+      <Route path='/Login' component={Login} exact />
+      </Switch>
+    </Route>
+  </Router>
   );
 }
 

@@ -1,0 +1,136 @@
+.supplier-master {
+    padding: 20px;
+    width: 950px;
+    margin-left: 350px;
+    margin-top: 200px;
+  }
+  
+  .headerss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .supplier-registration {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .back-button:hover {
+    background-color: #e53935;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-row input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .add-contact-button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-contact-button:hover {
+    background-color: #1976D2;
+  }
+  
+  .remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+  
+  .remove-button:hover {
+    background-color: #e53935;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+
+ /* Suppliermasterss.css */
+
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.edit-button {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.delete-button {
+  color: #dc3545; /* Bootstrap danger color */
+}
+ 
