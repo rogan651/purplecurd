@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/purplecurd/static/css/main.6d12dc21.css",
+    "main.js": "/purplecurd/static/js/main.b1ec3f88.js",
+    "index.html": "/purplecurd/index.html",
+    "main.6d12dc21.css.map": "/purplecurd/static/css/main.6d12dc21.css.map",
+    "main.b1ec3f88.js.map": "/purplecurd/static/js/main.b1ec3f88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d12dc21.css",
+    "static/js/main.b1ec3f88.js"
+  ]
+}
